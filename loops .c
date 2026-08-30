@@ -53,5 +53,23 @@ for(i=n;i<=10;i++){
 
 }
 
+#include<stdio.h>  // fibonnaci series
+int main(){
+
+int a=0,b=1;
+int n, next;
+printf("Enter n value:\n");
+scanf("%d",&n);
+for(int i=1;i<=n;i++){
+   printf("%d",a);
+
+     next=a+b;
+     a=b;
+     b=next;
+}
+
+
+    return 0;
+}
 
  
