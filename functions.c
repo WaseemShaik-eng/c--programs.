@@ -87,3 +87,19 @@ int main()
     }
     return b;
 }
+
+
+#include<stdio.h>
+int sumNm(int n);
+int main(){               // sum of first n natural numbers
+  printf("Sum is:%d",sumNm(5));
+    return 0;
+}
+int sumNm(int n){
+    if(n==1){
+    return 1;
+    }
+int sumNm1=sumNm(n-1);
+int sumNm2=sumNm1+n;
+ return sumNm2;
+}
