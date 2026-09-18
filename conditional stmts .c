@@ -1,7 +1,8 @@
+// greater among 3 numbers
 #include<stdio.h>
 int main(){
     
-    int a,b,c;               // greater among 3 numbers
+    int a,b,c;               
     printf("Enter a,b,c values :");
     scanf("%d%d%d",&a,&b,&c);
     if(a>b && a>c){
@@ -13,8 +14,14 @@ int main(){
     if(c>a && c>b){
      printf("c is greater than a and b\n");
     } 
+    return 0;
+}
 
-    int d;                           // even or odd 
+    
+ // even or odd 
+#include<stdio.h>
+int main(){
+    int d;                          
     printf("Enter d value :\n");
     scanf("%d",&d);
     if(d%2==0){
@@ -23,9 +30,13 @@ int main(){
     else{
         printf("Odd number!\n");
     }
+return 0;
+}
 
 
-    int year;                        // leap year 
+// leap year 
+#include<stdio.h>
+    int year;                        
     printf("Enter the year:\n");
     scanf("%d",&year);
     if(year%4==0){
@@ -34,10 +45,13 @@ int main(){
     else{
         printf("Not a leap year\n");
     }
+return 0;
+}
 
 
-
-    int e,f;                         // calculator using switch case
+ // calculator using switch case
+#include<stdio.h>
+    int e,f;                        
     int choice;
     printf("Enter e and f values:\n");
     scanf("%d%d",&e,&f);
@@ -61,9 +75,12 @@ int main(){
         default:
           printf("Invalid choice\n");
     }
+return 0;
 
-
-          int g;                    // find prime number
+ // find prime number
+  #include<stdio.h>
+int main(){
+          int g;                    
           printf("Enter g value:\n");
           scanf("%d",&g);
           if((g%2)!=0){
@@ -87,9 +104,14 @@ int main(){
         else{
              printf("Invalid character!\n");
            }
+    return 0;
+}
 
 
-int age;              // check weather the person eligible for vote or not     
+// check weather the person eligible for vote or not
+#include<stdio.h>
+int main(){
+int age;            
 printf("Enter age of the person":\n);
 scanf("%d",&age);
 if(a>=18)
