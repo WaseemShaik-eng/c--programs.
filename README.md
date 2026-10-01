@@ -1,4 +1,3 @@
 # c-programs.
-This repository contains my C programming practice programs. These programs will help in building the fundamentals.
-By practicing these programs will make you strong in understanding the concepts easily.
 
+A collection of C programming practice programs designed to build strong fundamentals, improve problem-solving skills, and strengthen programming logic.
